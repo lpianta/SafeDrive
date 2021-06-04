@@ -1,5 +1,7 @@
 <h1 align="center"><b>SafeDrive</b></h1>
+<p align="center">
 <img src="https://github.com/lpianta/SafeDrive/blob/main/media/demo.gif" />
+</p>
 <hr>
 <ul><h3><b>About the project</b></h3></ul>
 This Python app was developed as a Capstone Project for Strive School AI Engineering bootcamp.
