@@ -1,5 +1,5 @@
 <h1 align="center"><b>SafeDrive</b></h1>
-![GIF](/media/demo.gif)
+![GIF](https://github.com/lpianta/SafeDrive/blob/main/media/demo.gif)
 <hr>
 <ul><h3><b>About the project</b></h3></ul>
 This Python app was developed as a Capstone Project for Strive School AI Engineering bootcamp.
