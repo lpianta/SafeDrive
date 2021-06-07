@@ -15,7 +15,7 @@ ap.add_argument("-w", "--model_weights", type=str, default="./models/ssd_mobilen
                 help="path to model weights file")
 ap.add_argument("-n", "--names", type=str, default="./models/ssd_mobilenet_v3/coco.names",
                 help="path to categories name file")
-ap.add_argument("-i", "--input", type=int, default=1,
+ap.add_argument("-i", "--input", type=int, default=0,
                 help="index of webcam on system")
 args = vars(ap.parse_args())
 
@@ -135,7 +135,7 @@ with mp_holistic.Holistic(
 
         ret, frame = cap.read()
 
-        frame = cv2.resize(frame, (640, 480))
+        frame = cv2.resize(frame, (800, 600))
 
         size = frame.shape
 
